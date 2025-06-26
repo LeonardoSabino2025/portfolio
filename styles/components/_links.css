@@ -1,0 +1,1 @@
+.social-links a{display:inline-block;width:40px;height:40px;margin-right:15px;transition:transform .3s,filter .3s}.social-links a img{width:100%;height:100%;filter:invert(100%) brightness(1.5)}.social-links a:hover{transform:translateY(-5px);filter:invert(70%) sepia(100%) saturate(700%) hue-rotate(30deg) brightness(1.1)}

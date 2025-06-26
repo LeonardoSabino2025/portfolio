@@ -1,0 +1,26 @@
+/* styles/components/_header.css ou _lang-switcher.css */
+
+.lang-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+    font-size: 24px; /* Define o tamanho do emoji */
+}
+
+.lang-toggle:hover {
+    background-color: var(--clr-border);
+}
+
+.lang-toggle__flag {
+    line-height: 1; /* Ajuda a centralizar o emoji verticalmente */
+}
+
+/* Regras para mostrar/esconder as bandeiras */
+.lang-toggle__flag--us { display: inline-block; }
+.lang-toggle__flag--br { display: none; }

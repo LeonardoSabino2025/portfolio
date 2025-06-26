@@ -1,0 +1,1 @@
+export function initSmoothScroll(){document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();let t=this.getAttribute("href"),o=document.querySelector(t);o&&(o.scrollIntoView({behavior:"smooth"}),history.pushState(null,"",t))})})}

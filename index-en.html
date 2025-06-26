@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leonardo Sabino's Portfolio, Frontend Developer specialized in creating modern and responsive web experiences.">
+    <meta name="keywords" content="frontend, developer, portfolio, HTML, CSS, JavaScript, React, web design">
+    <meta property="og:title" content="Leonardo Sabino | Portfolio">
+    <title>Leonardo Sabino | Portfolio</title>
+    <link rel="icon" href="imgs/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="#" class="header__logo">Leonardo Sabino</a>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__item"><a href="#home" class="header__link">Home</a></li>
+                    <li class="header__item"><a href="#about" class="header__link">About</a></li>
+                    <li class="header__item"><a href="#skills" class="header__link">Skills</a></li>
+                    <li class="header__item"><a href="#projects" class="header__link">Projects</a></li>
+                    <li class="header__item"><a href="#contact" class="header__link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header__controls">
+<button id="lang-toggle-btn" class="lang-toggle" aria-label="Change language to Portuguese"> <span class="lang-toggle__flag lang-toggle__flag--us">🇺🇸</span> <span class="lang-toggle__flag lang-toggle__flag--br">🇧🇷</span> </button>
+                <button class="header__theme-btn theme-toggle"></button>
+            </div>
+                <button class="header__mobile-menu-toggle">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <p class="hero__greeting">Hello! I am</p>
+                    <h1 class="hero__title">Leonardo Sabino</h1>
+                    <h2 class="hero__subtitle">Frontend Developer</h2>
+                    <p class="hero__description">A dedicated frontend developer creating dynamic and intuitive user interfaces. My journey in web development began as a hobby in the mid-90s, and since then I've been dedicated to refining my skills in essential technologies.</p>
+                    <div class="hero__cta-buttons">
+                        <a href="#contact" class="btn btn--primary">Contact Me</a>
+                        <a href="https://docs.google.com/document/d/1TOT8uNJe1HPcSrtFvXEaiQxBWDcOcH-0UtHzOTMyUfk/edit?usp=sharing" class="btn btn--secondary">CV Download</a>
+                    </div>
+                    <div class="hero__social-links social-links">
+                        <a href="https://www.linkedin.com/in/leonardo-sabino/" target="_blank" aria-label="Leonardo Sabino's LinkedIn">
+                            <img src="icons/linkedin.svg" alt="LinkedIn icon">
+                        </a>
+                        <a href="https://github.com/LeonardoSabino2025" target="_blank" aria-label="Leonardo Sabino's GitHub">
+                            <img src="icons/github.svg" alt="GitHub icon">
+                        </a>
+                        <a href="https://wa.me/5584921483009" target="_blank" aria-label="Leonardo Sabino's WhatsApp">
+                            <img src="icons/whatsapp.svg" alt="WhatsApp icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="hero__image">
+                    <img src="imgs/profile.png" alt="Leonardo Sabino's profile picture">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container about__container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about__content">
+                    <div class="about__image">
+                        <img src="imgs/sobre_mim.png" alt="Leonardo Sabino's profile picture in a casual setting" class="about__profile-img">
+                    </div>
+                    <div class="about__text">
+                        <p class="about__intro-text">Hello! I'm Leonardo Sabino, a frontend developer dedicated to creating dynamic and intuitive user interfaces. My journey in web development began as a hobby in the mid-90s, and since then I've been dedicated to refining my skills in essential technologies.</p>
+                        <p>I enjoy new challenges and new projects that allow me to explore and apply best practices in web development. My goal is to build user experiences that are not only visually appealing but also highly functional and accessible.</p>
+                        <p>When I'm not coding, I enjoy reading about technology, watching good movies and series, playing video games, or learning something new. I am always seeking continuous learning and how I can contribute to meaningful projects.</p>
+                        <a href="https://docs.google.com/document/d/1TOT8uNJe1HPcSrtFvXEaiQxBWDcOcH-0UtHzOTMyUfk/edit?usp=sharing" target="_blank" class="btn btn--outline">Download My CV (EN)</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="skills" class="skills">
+            <div class="container skills__container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills__grid">
+                    <div class="skill-item">
+                        <img src="icons/html5.svg" alt="HTML5 Icon" class="skill-item__icon">
+                        <h3 class="skill-item__title">HTML5</h3>
+                        <p class="skill-item__description">Solid knowledge in semantic HTML5 for structuring web content, ensuring accessibility and SEO best practices.</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="icons/css3.svg" alt="CSS3 Icon" class="skill-item__icon">
+                        <h3 class="skill-item__title">CSS3</h3>
+                        <p class="skill-item__description">Expertise in modern CSS3, including Flexbox, Grid, animations, and responsive design for various devices.</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="icons/javascript.svg" alt="JavaScript Icon" class="skill-item__icon">
+                        <h3 class="skill-item__title">JavaScript</h3>
+                        <p class="skill-item__description">Proficiency in JavaScript for creating interactive and dynamic web experiences, manipulating the DOM, and handling events.</p>
+                    </div>
+                    <div class="skill-item">
+                        <img src="icons/git.svg" alt="Git Icon" class="skill-item__icon">
+                        <h3 class="skill-item__title">Git & GitHub</h3>
+                        <p class="skill-item__description">Proficient in version control with Git and collaborative development using GitHub, including branching, merging, and pull requests.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+               <section id="projects" class="projects">
+            <div class="container projects__container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects__grid">
+                    <div class="project-card">
+                        <img src="imgs/project-spiderman.webp" alt="Spiderman's LiveAction Spiderverse Screenshot" loading="lazy" class="project-card__image">
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Spiderman's LiveAction Spiderverse</h3>
+                            <p class="project-card__description">A fan page dedicated to Spider-Man universe, exploring their live-action versions with detailed information, expanded cast and focus on Japanese Spider-Man (project produced as part of Dio's Bootcamp).</p>
+                            <div class="project-card__techs">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-card__actions">
+                                <a href="https://leonardosabino2025.github.io/multiversos-liveaction-spiderman/" target="_blank" class="btn btn--small">Play Demo</a>
+                                <a href="https://github.com/LeonardoSabino2025/multiversos-liveaction-spiderman" target="_blank" class="btn btn--small btn--outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="imgs/project-stranger-things.webp" alt="Inverted world's Screenshot" loading="lazy" class="project-card__image">
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Inverted world</h3>
+                            <p class="project-card__description">An interactive project inspired by Stranger Things, with functionality to switch between light and dark theme (normal world / inverted world), including background music exchange and immersive visual effects (project produced as part of Dio's Bootcamp).</p>
+                            <div class="project-card__techs">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-card__actions">
+                                <a href="https://leonardosabino2025.github.io/landing-page-mundo-invertido/" target="_blank" class="btn btn--small">Play Demo</a>
+                                <a href="https://github.com/LeonardoSabino2025/landing-page-mundo-invertido" target="_blank" class="btn btn--small btn--outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="imgs/project-memory-game.webp" alt="Memory Game Challenge with Emojis's Screenshot" loading="lazy" class="project-card__image">
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Memory Game Challenge with Emojis</h3>
+                            <p class="project-card__description">A fun and challenging emojis memory game that tests its concentration and agility in 60 seconds, with intuitive interface, music, sound effects and victory animation (project produced as part of Dio's Bootcamp).</p>
+                            <div class="project-card__techs">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-card__actions">
+                                <a href="https://leonardosabino2025.github.io/desafio_jogo_da_memoria_emojis/" target="_blank" class="btn btn--small">Play Demo</a>
+                                <a href="https://github.com/LeonardoSabino2025/desafio_jogo_da_memoria_emojis" target="_blank" class="btn btn--small btn--outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <img src="imgs/project-piano.webp" alt="Virtual Piano Simulator's Screenshot" loading="lazy" class="project-card__image">
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Virtual Piano Simulator</h3>
+                            <p class="project-card__description">An interactive virtual piano developed with pure HTML, CSS and JavaScript, allowing users to play music notes via keyboard or click, with volume control and visual feedback (project produced as part of Dio's Bootcamp).</p>
+                            <div class="project-card__techs">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-card__actions">
+                                <a href="https://leonardosabino2025.github.io/piano-simulator/" target="_blank" class="btn btn--small">Play Demo</a>
+                                <a href="https://github.com/LeonardoSabino2025/piano-simulator" target="_blank" class="btn btn--small btn--outline">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container contact__container">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact__content--simplified">
+                    <a href="mailto:leonardosabino2025@gmail.com" target="_blank" aria-label="Email Leonardo Sabino">
+                        <img src="icons/email.svg" alt="Email icon" class="contact__icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/leonardo-sabino/" target="_blank" aria-label="Leonardo Sabino's LinkedIn">
+                        <img src="icons/linkedin.svg" alt="LinkedIn icon" class="contact__icon">
+                    </a>
+                    <a href="https://github.com/LeonardoSabino2025" target="_blank" aria-label="Leonardo Sabino's GitHub">
+                        <img src="icons/github.svg" alt="GitHub icon" class="contact__icon">
+                    </a>
+                    <a href="https://www.instagram.com/leonardocsabino/" target="_blank" aria-label="Leonardo Sabino's Instagram">
+                        <img src="icons/instagram.svg" alt="Instagram icon" class="contact__icon">
+                    </a>
+                    <a href="https://wa.me/5584921483009" target="_blank" aria-label="Leonardo Sabino's WhatsApp">
+                        <img src="icons/whatsapp.svg" alt="WhatsApp icon" class="contact__icon">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <p>&copy; 2025 Leonardo Sabino. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js" type="module" defer></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+:root{
+    --clr-bg-dark:#1C1E26;
+    --clr-bg-light:#282A3A;
+    --clr-text-primary:#F8F8F2;
+    --clr-text-secondary:#009BFF;
+    --clr-accent:#FFBF00;
+    --clr-accent-light:#fbb533;
+    --clr-border:#44475A;
+    --clr-shadow:rgba(0, 0, 0, 0.4);
+    --clr-bg-dark-light-theme:#F4F6F9;
+    --clr-bg-light-light-theme:#FFFFFF;
+    --clr-text-primary-light-theme:#333333;
+    --clr-text-secondary-light-theme:#6C5B7B;
+    --clr-accent-light-theme:#6C5B7B;
+    --clr-accent-light-light-theme:#333333;
+    --clr-border-light-theme:#DDDDDD;
+    --clr-shadow-light-theme:rgba(0, 0, 0, 0.1);
+    --ff-primary:'Poppins',sans-serif;
+    --ff-body:var(--ff-primary);
+    --ff-heading:var(--ff-primary);
+    --fs-base:1rem;
+    --fs-sm:0.875rem;
+    --fs-md:1.125rem;
+    --fs-lg:1.5rem;
+    --fs-xl:2rem;
+    --fs-xxl:3rem
+}
+
+body {
+    font-family:var(--ff-body);
+    font-size:var(--fs-base);
+    line-height:1.6;
+    color:var(--clr-text-primary);
+    background-color:var(--clr-bg-dark);
+    scroll-behavior:smooth;    
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+body.light-theme {
+    --clr-bg-dark:var(--clr-bg-dark-light-theme);
+    --clr-bg-light:var(--clr-bg-light-light-theme);
+    --clr-text-primary:var(--clr-text-primary-light-theme);
+    --clr-text-secondary:var(--clr-text-secondary-light-theme);
+    --clr-accent:var(--clr-accent-light-theme);
+    --clr-accent-light:var(--clr-accent-light-light-theme);
+    --clr-border:var(--clr-border-light-theme);
+    --clr-shadow:var(--clr-shadow-light-theme)
+}

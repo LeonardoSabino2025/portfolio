@@ -1,0 +1,1 @@
+export function initMobileMenu(){let e=document.querySelector(".header__mobile-menu-toggle"),t=document.querySelector(".header__nav"),i=document.querySelectorAll(".header__nav .header__link");e&&t&&(e.addEventListener("click",()=>{t.classList.toggle("active")}),i.forEach(e=>{e.addEventListener("click",()=>{t.classList.contains("active")&&t.classList.remove("active")})}))}
