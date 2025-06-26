@@ -1,24 +1,24 @@
 /* Base */
-@import url('./base/_variables.css'); 
-@import url('./base/_reset.css');
+@import url('styles/base/_variables.css'); 
+@import url('styles/base/_reset.css');
 
 /* Layout */
-@import url('./layout/_container.css');
-@import url('./layout/_sections.css');
+@import url('styles/layout/_container.css');
+@import url('styles/layout/_sections.css');
 
 /* Components */
-@import url('./components/_buttons.css');
-@import url('./components/_header.css');
-@import url('./components/_links.css');
-@import url('./components/_footer.css');
-@import url('./components/_lang-switcher.css');
+@import url('styles/components/_buttons.css');
+@import url('styles/components/_header.css');
+@import url('styles/components/_links.css');
+@import url('styles/components/_footer.css');
+@import url('styles/components/_lang-switcher.css');
 
 /* Sections */
-@import url('./sections/_hero.css');
-@import url('./sections/_about.css');
-@import url('./sections/_skills.css');
-@import url('./sections/_projects.css');
-@import url('./sections/_contact.css');
+@import url('styles/sections/_hero.css');
+@import url('styles/sections/_about.css');
+@import url('styles/sections/_skills.css');
+@import url('styles/sections/_projects.css');
+@import url('styles/sections/_contact.css');
 
 /* Specifics */
-@import url('./_animations.css');
+@import url('styles/_animations.css');
