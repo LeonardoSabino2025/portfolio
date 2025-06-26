@@ -1,26 +1,24 @@
 /* Base */
-@import url('base/_variables.css'); 
-@import url('base/_reset.css');
+@import url('_variables.css'); 
+@import url('_reset.css');
 
 /* Layout */
-@import url('layout/_container.css');
-@import url('layout/_sections.css');
+@import url('_container.css');
+@import url('_sections.css');
 
 /* Components */
-@import url('components/_buttons.css');
-@import url('components/_header.css');
-@import url('components/_links.css');
-@import url('components/_footer.css');
-@import url('components/_lang-switcher.css');
+@import url('_buttons.css');
+@import url('_header.css');
+@import url('_links.css');
+@import url('_footer.css');
+@import url('_lang-switcher.css');
 
 /* Sections */
-@import url('sections/_hero.css');
-@import url('sections/_about.css');
-@import url('sections/_skills.css');
-@import url('sections/_projects.css');
-@import url('sections/_contact.css');
+@import url('_hero.css');
+@import url('_about.css');
+@import url('_skills.css');
+@import url('_projects.css');
+@import url('_contact.css');
 
 /* Specifics */
 @import url('_animations.css');
-
-/* Forçando novo deploy */
